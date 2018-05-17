@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegularSaveVC" customModule="Magazine" customModuleProvider="target">
+            <connections>
+                <outlet property="img_magazine" destination="B0y-he-5kW" id="CV8-BH-GXt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_select_template_ipad.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xe7-8p-YmW">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hdt-gj-1MK">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                    <color key="backgroundColor" red="0.98633235689999998" green="0.9281800389" blue="0.3252868652" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Cnq-2R-qqK"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNV-aq-qQJ">
+                    <rect key="frame" x="8" y="25" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="OwQ-5y-bEr"/>
+                        <constraint firstAttribute="height" constant="50" id="iw9-R4-anG"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_back.png"/>
+                    <connections>
+                        <action selector="btn_Back_Clicked:" destination="-1" eventType="touchUpInside" id="caA-9F-pdR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdq-UL-fsD">
+                    <rect key="frame" x="63" y="25" width="50" height="50"/>
+                    <state key="normal" backgroundImage="btn_home.png"/>
+                    <connections>
+                        <action selector="btn_Home_Clicked:" destination="-1" eventType="touchUpInside" id="bAG-32-05l"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B0y-he-5kW">
+                    <rect key="frame" x="71.5" y="127" width="625" height="770"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMN-jG-T2B">
+                    <rect key="frame" x="390.5" y="844" width="110" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="dMN-jG-T2B" secondAttribute="height" multiplier="1:1" id="4rE-5m-BFE"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="btn_twitter.png"/>
+                    <connections>
+                        <action selector="btnTwitter_Clicked:" destination="-1" eventType="touchUpInside" id="lCO-R4-sU8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqz-sd-vlq">
+                    <rect key="frame" x="264.5" y="844" width="110" height="110"/>
+                    <state key="normal" backgroundImage="btn_pinterest.png"/>
+                    <connections>
+                        <action selector="btnEmail_Clicked:" destination="-1" eventType="touchUpInside" id="atn-4R-wO2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neB-uf-14x">
+                    <rect key="frame" x="138.5" y="844" width="110" height="110"/>
+                    <state key="normal" backgroundImage="btn_fb.png"/>
+                    <connections>
+                        <action selector="btnFB_Clicked:" destination="-1" eventType="touchUpInside" id="26W-sU-h5e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3p-G0-Spi">
+                    <rect key="frame" x="516.5" y="844" width="110" height="110"/>
+                    <state key="normal" backgroundImage="btn_instagram.png"/>
+                    <connections>
+                        <action selector="btnInstagram_Clicked:" destination="-1" eventType="touchUpInside" id="QAv-ia-EeQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dNV-aq-qQJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="0gJ-aX-66k"/>
+                <constraint firstItem="Rdq-UL-fsD" firstAttribute="centerY" secondItem="dNV-aq-qQJ" secondAttribute="centerY" id="1Hf-iI-fIU"/>
+                <constraint firstItem="dNV-aq-qQJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="1Ht-uh-uaw"/>
+                <constraint firstItem="Xe7-8p-YmW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1hW-AL-rpa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="B0y-he-5kW" secondAttribute="trailing" constant="71.5" id="4eZ-ZB-S6G"/>
+                <constraint firstItem="neB-uf-14x" firstAttribute="width" secondItem="Cqz-sd-vlq" secondAttribute="width" id="Arc-Eq-Jqh"/>
+                <constraint firstItem="Rdq-UL-fsD" firstAttribute="width" secondItem="dNV-aq-qQJ" secondAttribute="width" id="B9f-vg-5ev"/>
+                <constraint firstItem="B0y-he-5kW" firstAttribute="top" secondItem="Rdq-UL-fsD" secondAttribute="bottom" constant="52" id="CEc-jn-4S5"/>
+                <constraint firstItem="Rdq-UL-fsD" firstAttribute="height" secondItem="dNV-aq-qQJ" secondAttribute="height" id="EPb-Y9-GD1"/>
+                <constraint firstItem="neB-uf-14x" firstAttribute="centerY" secondItem="Cqz-sd-vlq" secondAttribute="centerY" id="Enx-wv-w9L"/>
+                <constraint firstItem="Hdt-gj-1MK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="F4D-R9-DNU"/>
+                <constraint firstItem="Hdt-gj-1MK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HSK-zE-bxJ"/>
+                <constraint firstItem="neB-uf-14x" firstAttribute="height" secondItem="Cqz-sd-vlq" secondAttribute="height" id="Iar-ZC-xvF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="B0y-he-5kW" secondAttribute="bottom" constant="127" id="JpT-Ln-YVE"/>
+                <constraint firstItem="Cqz-sd-vlq" firstAttribute="leading" secondItem="neB-uf-14x" secondAttribute="trailing" constant="16" id="LMi-eO-86A"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xe7-8p-YmW" secondAttribute="trailing" id="Nnu-oK-l3g"/>
+                <constraint firstItem="Cqz-sd-vlq" firstAttribute="height" secondItem="dMN-jG-T2B" secondAttribute="height" id="OdW-Wi-5zc"/>
+                <constraint firstItem="b3p-G0-Spi" firstAttribute="leading" secondItem="dMN-jG-T2B" secondAttribute="trailing" constant="16" id="SOP-yH-hbv"/>
+                <constraint firstItem="B0y-he-5kW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="71.5" id="SSC-KZ-Z6F"/>
+                <constraint firstItem="dMN-jG-T2B" firstAttribute="leading" secondItem="Cqz-sd-vlq" secondAttribute="trailing" constant="16" id="TEN-JM-j5j"/>
+                <constraint firstItem="dMN-jG-T2B" firstAttribute="width" secondItem="Xe7-8p-YmW" secondAttribute="width" multiplier="1:7" id="Ub4-q0-hYm"/>
+                <constraint firstItem="Rdq-UL-fsD" firstAttribute="leading" secondItem="dNV-aq-qQJ" secondAttribute="trailing" constant="5" id="XgY-C3-2Eq"/>
+                <constraint firstItem="Xe7-8p-YmW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dOW-RM-Lbe"/>
+                <constraint firstItem="dMN-jG-T2B" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" multiplier="1.16" id="kpk-Hb-Gpk"/>
+                <constraint firstItem="b3p-G0-Spi" firstAttribute="centerY" secondItem="dMN-jG-T2B" secondAttribute="centerY" id="qRP-JH-Z6F"/>
+                <constraint firstItem="Hdt-gj-1MK" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="rTI-k1-ZMi"/>
+                <constraint firstItem="b3p-G0-Spi" firstAttribute="height" secondItem="dMN-jG-T2B" secondAttribute="height" id="sHV-VB-W6O"/>
+                <constraint firstItem="b3p-G0-Spi" firstAttribute="width" secondItem="dMN-jG-T2B" secondAttribute="width" id="u56-qC-deS"/>
+                <constraint firstItem="Cqz-sd-vlq" firstAttribute="width" secondItem="dMN-jG-T2B" secondAttribute="width" id="uLu-Rq-U5A"/>
+                <constraint firstItem="Cqz-sd-vlq" firstAttribute="centerY" secondItem="dMN-jG-T2B" secondAttribute="centerY" id="x5B-pZ-Or0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dMN-jG-T2B" secondAttribute="bottom" constant="70" id="x5y-xW-Xya"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Xe7-8p-YmW" secondAttribute="bottom" id="xUj-8h-adn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_select_template_ipad.jpg" width="768" height="1024"/>
+        <image name="btn_back.png" width="30" height="30"/>
+        <image name="btn_fb.png" width="60" height="60"/>
+        <image name="btn_home.png" width="60" height="60"/>
+        <image name="btn_instagram.png" width="60" height="60"/>
+        <image name="btn_pinterest.png" width="60" height="60"/>
+        <image name="btn_twitter.png" width="60" height="60"/>
+    </resources>
+</document>

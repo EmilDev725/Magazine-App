@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainMenuVC" customModule="Magazine" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dot-ir-9gw">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_menu_ipad.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="imv-J5-t8z">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-qY-hro" userLabel="New Magazine">
+                            <rect key="frame" x="8" y="310" width="360" height="67"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btn_NewMagazine_Clicked:" destination="-1" eventType="touchUpInside" id="1Zu-UB-oPL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2Y-KK-0gM" userLabel="Load Magazine">
+                            <rect key="frame" x="8" y="385" width="360" height="58"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btn_LoadMagazine_Clicked:" destination="-1" eventType="touchUpInside" id="2Yk-Yq-eUf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9m7-Zr-mqn" userLabel="Restore Purchase">
+                            <rect key="frame" x="8" y="455" width="174" height="110"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btnRestorePurchase_Clicked:" destination="-1" eventType="touchUpInside" id="EdD-dy-TSM"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="385-36-Lpf" userLabel="Full Version">
+                            <rect key="frame" x="8" y="798" width="752" height="226"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btn_FullVersion_Clicked:" destination="-1" eventType="touchUpInside" id="F2J-KV-66O"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BO3-Id-GFZ" userLabel="Contact Us">
+                            <rect key="frame" x="593" y="935" width="82" height="82"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btn_ContactUs_Clicked:" destination="-1" eventType="touchUpInside" id="vhL-20-pR5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GH-B1-Xtf" userLabel="Visit Facebook">
+                            <rect key="frame" x="677" y="935" width="82" height="82"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="btn_VisitFB_Clicked:" destination="-1" eventType="touchUpInside" id="MRS-xe-vUb"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="imv-J5-t8z" secondAttribute="bottom" id="70D-YM-GoR"/>
+                        <constraint firstItem="imv-J5-t8z" firstAttribute="top" secondItem="Dot-ir-9gw" secondAttribute="top" id="Sct-Db-MfO"/>
+                        <constraint firstAttribute="trailing" secondItem="imv-J5-t8z" secondAttribute="trailing" id="alD-7R-FYu"/>
+                        <constraint firstItem="imv-J5-t8z" firstAttribute="leading" secondItem="Dot-ir-9gw" secondAttribute="leading" id="vMc-yb-EZB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Dot-ir-9gw" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Ddf-P6-l1H"/>
+                <constraint firstItem="Dot-ir-9gw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="O4J-ZA-h90"/>
+                <constraint firstItem="Dot-ir-9gw" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="WmJ-Zy-1Ob"/>
+                <constraint firstItem="Dot-ir-9gw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pNE-mK-In6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_menu_ipad.jpg" width="768" height="1024"/>
+    </resources>
+</document>

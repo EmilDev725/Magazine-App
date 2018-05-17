@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'Magazine' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Magazine
+     
+    pod 'ChromaColorPicker'
+    pod 'Sharaku'
+    pod 'SQLite.swift'
+    pod 'TOCropViewController'
+    #pod 'PinterestSDK', :git => 'git@github.com:pinterest/ios-pdk.git'
+    pod 'Google-Mobile-Ads-SDK'
+
+
+
+  target 'MagazineTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MagazineUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

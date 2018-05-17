@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo.ttf">
+            <string>Cairo</string>
+        </array>
+        <array key="OpenSans-CondBold.ttf">
+            <string>OpenSans-CondensedBold</string>
+        </array>
+        <array key="Oswald-Bold_4.ttf">
+            <string>Oswald-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DF0-ff-7cF">
+                    <rect key="frame" x="0.0" y="0.0" width="307" height="514"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people_iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="1yk-RT-TkP">
+                            <rect key="frame" x="0.0" y="0.0" width="307" height="514"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="People" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lDn-zZ-fna" customClass="THLabel">
+                            <rect key="frame" x="8" y="19.5" width="221" height="77.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" red="0.48233491179999999" green="0.83378046750000001" blue="0.93675696850000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="Cairo" family="Cairo" pointSize="70"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" red="0.48233491179999999" green="0.83378046750000001" blue="0.93675696850000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FASHION" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cos-Il-t8W" customClass="THLabel">
+                            <rect key="frame" x="249.5" y="117.5" width="48.5" height="19.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="14"/>
+                            <color key="textColor" red="0.98633235689999998" green="0.9281800389" blue="0.3252868652" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advise page 3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hV-Ns-d61" customClass="THLabel">
+                            <rect key="frame" x="241" y="133" width="62" height="16"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="11.5"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHO IS THIS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SxC-lR-uJc" customClass="THLabel">
+                            <rect key="frame" x="242" y="254" width="56.5" height="16"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="11.5"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIRL?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kgw-AN-RQl" customClass="THLabel">
+                            <rect key="frame" x="260" y="265" width="30" height="19.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="14"/>
+                            <color key="textColor" red="0.48233491182327271" green="0.83378046751022339" blue="0.93675696849822998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAY IT WITH" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VdU-fP-AS5" customClass="THLabel">
+                            <rect key="frame" x="244.5" y="390.5" width="54.5" height="16"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="11.5"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLOWERS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wXm-5J-bcn" customClass="THLabel">
+                            <rect key="frame" x="245.5" y="399" width="53.5" height="19.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="14"/>
+                            <color key="textColor" red="0.99832624197006226" green="0.9820442795753479" blue="0.32570046186447144" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUPERSTAR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfR-8L-gnU" customClass="THLabel">
+                            <rect key="frame" x="6.5" y="349.5" width="80.5" height="26"/>
+                            <color key="backgroundColor" red="0.48233491179999999" green="0.83378046750000001" blue="0.93675696850000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIS" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhV-tE-lVL" customClass="THLabel">
+                            <rect key="frame" x="7" y="359" width="110" height="89"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="60"/>
+                            <color key="textColor" red="0.99832624199999997" green="0.98204427959999996" blue="0.32570046190000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IS ME" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oxw-eh-I0C" customClass="THLabel">
+                            <rect key="frame" x="7.5" y="418" width="129" height="89"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Oswald-Bold" family="Oswald" pointSize="60"/>
+                            <color key="textColor" red="0.99832624199999997" green="0.98204427959999996" blue="0.32570046190000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="5hV-Ns-d61" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:1.82" id="2BT-Wd-OKW"/>
+                        <constraint firstAttribute="bottom" secondItem="1yk-RT-TkP" secondAttribute="bottom" id="49l-CI-Pot"/>
+                        <constraint firstItem="Cos-Il-t8W" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1.78:1" id="5aK-SB-VgC"/>
+                        <constraint firstItem="Cos-Il-t8W" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:2.02" id="9HU-8s-50M"/>
+                        <constraint firstItem="lDn-zZ-fna" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:4.4" id="BAU-cc-UQZ"/>
+                        <constraint firstItem="SxC-lR-uJc" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.02" id="BxC-eU-XL0"/>
+                        <constraint firstItem="WfR-8L-gnU" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.25" id="Dgr-zn-UME"/>
+                        <constraint firstAttribute="trailing" secondItem="1yk-RT-TkP" secondAttribute="trailing" id="Esl-CM-rBA"/>
+                        <constraint firstItem="Oxw-eh-I0C" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:2.15" id="Jg2-Lp-Cl0"/>
+                        <constraint firstItem="1yk-RT-TkP" firstAttribute="top" secondItem="DF0-ff-7cF" secondAttribute="top" id="TMl-mT-hqF"/>
+                        <constraint firstItem="wXm-5J-bcn" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.59" id="Wnn-d2-7p4"/>
+                        <constraint firstItem="VdU-fP-AS5" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1.77:1" id="bid-b3-J3F"/>
+                        <constraint firstItem="kgw-AN-RQl" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.07" id="eAO-R9-toJ"/>
+                        <constraint firstItem="kgw-AN-RQl" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1.79" id="f9s-5m-sMd"/>
+                        <constraint firstItem="Oxw-eh-I0C" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.8" id="fas-Qy-2U2"/>
+                        <constraint firstItem="mhV-tE-lVL" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.57" id="jJT-Gh-TdC"/>
+                        <constraint firstItem="wXm-5J-bcn" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1.77" id="mGC-js-qmm"/>
+                        <constraint firstItem="lDn-zZ-fna" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:1.3" id="nlM-0V-n8j"/>
+                        <constraint firstItem="1yk-RT-TkP" firstAttribute="leading" secondItem="DF0-ff-7cF" secondAttribute="leading" id="o3f-mI-6JA"/>
+                        <constraint firstItem="mhV-tE-lVL" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:2.5" id="pge-OC-HHl"/>
+                        <constraint firstItem="5hV-Ns-d61" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1.77:1" id="rDm-0u-iS9"/>
+                        <constraint firstItem="WfR-8L-gnU" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.41" id="vpE-6p-LfW"/>
+                        <constraint firstItem="VdU-fP-AS5" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.55" id="zBd-ef-HEQ"/>
+                        <constraint firstItem="SxC-lR-uJc" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1.76:1" id="ztE-3A-gwD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DF0-ff-7cF" secondAttribute="bottom" constant="153" id="3bx-jf-hDP"/>
+                <constraint firstAttribute="trailing" secondItem="DF0-ff-7cF" secondAttribute="trailing" constant="68" id="7Uz-qB-6xt"/>
+                <constraint firstItem="DF0-ff-7cF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PEO-rL-KFW"/>
+                <constraint firstItem="DF0-ff-7cF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="czD-Qs-cv6"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="people_iphone.png" width="375" height="667"/>
+    </resources>
+</document>

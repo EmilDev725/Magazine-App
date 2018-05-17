@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TRADEGOTHICLTSTD-BDCN20.OTF">
+            <string>TradeGothicLTStd-BdCn20</string>
+        </array>
+        <array key="TimesNewRomanBold.ttf">
+            <string>TimesNewRomanPS-BoldMT</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59H-QI-nEV">
+                    <rect key="frame" x="0.0" y="0.0" width="625" height="769"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time_ipad.png" translatesAutoresizingMaskIntoConstraints="NO" id="fMl-5h-7JF">
+                            <rect key="frame" x="0.0" y="0.0" width="625" height="769"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pi8-ac-kaD" customClass="THLabel">
+                            <rect key="frame" x="74" y="0.0" width="477.5" height="200.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="179"/>
+                            <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="2"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVX-kd-nSU" customClass="THLabel">
+                            <rect key="frame" x="438.5" y="356" width="144.5" height="101"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <string key="text">THIS
+PERSON</string>
+                            <fontDescription key="fontDescription" name="TradeGothicLTStd-BdCn20" family="Trade Gothic LT Std" pointSize="50"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spliter.png" translatesAutoresizingMaskIntoConstraints="NO" id="ARP-0G-Css">
+                            <rect key="frame" x="454.5" y="457" width="114" height="4"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="yD9-rF-a9t"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vr7-6s-p7L" customClass="THLabel">
+                            <rect key="frame" x="446" y="473" width="130" height="97"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <string key="text">SHOULD BE
+PERSON OF
+THE YEAR</string>
+                            <fontDescription key="fontDescription" name="TradeGothicLTStd-BdCn20" family="Trade Gothic LT Std" pointSize="32"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="PVX-kd-nSU" secondAttribute="trailing" constant="42" id="0NM-TO-r8B"/>
+                        <constraint firstItem="vr7-6s-p7L" firstAttribute="top" secondItem="ARP-0G-Css" secondAttribute="bottom" constant="12" id="4En-Mo-l3u"/>
+                        <constraint firstItem="fMl-5h-7JF" firstAttribute="leading" secondItem="59H-QI-nEV" secondAttribute="leading" id="5Lm-IH-Oer"/>
+                        <constraint firstItem="pi8-ac-kaD" firstAttribute="centerX" secondItem="59H-QI-nEV" secondAttribute="centerX" id="9Dm-4q-0v4"/>
+                        <constraint firstAttribute="trailing" secondItem="fMl-5h-7JF" secondAttribute="trailing" id="BVz-4J-pTM"/>
+                        <constraint firstItem="ARP-0G-Css" firstAttribute="centerX" secondItem="PVX-kd-nSU" secondAttribute="centerX" id="Pne-ve-Z15"/>
+                        <constraint firstItem="pi8-ac-kaD" firstAttribute="top" secondItem="59H-QI-nEV" secondAttribute="top" id="W8z-ak-34e"/>
+                        <constraint firstItem="ARP-0G-Css" firstAttribute="top" secondItem="PVX-kd-nSU" secondAttribute="bottom" id="YOW-sK-O9o"/>
+                        <constraint firstItem="vr7-6s-p7L" firstAttribute="centerX" secondItem="PVX-kd-nSU" secondAttribute="centerX" id="hwV-w5-fL3"/>
+                        <constraint firstItem="PVX-kd-nSU" firstAttribute="centerY" secondItem="59H-QI-nEV" secondAttribute="centerY" constant="22" id="nfS-O7-qbl"/>
+                        <constraint firstAttribute="bottom" secondItem="fMl-5h-7JF" secondAttribute="bottom" id="shk-UM-BjS"/>
+                        <constraint firstItem="fMl-5h-7JF" firstAttribute="top" secondItem="59H-QI-nEV" secondAttribute="top" id="zyf-o2-1Ke"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="59H-QI-nEV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mcd-Ol-X1d"/>
+                <constraint firstItem="59H-QI-nEV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Vgf-8T-s12"/>
+                <constraint firstAttribute="trailing" secondItem="59H-QI-nEV" secondAttribute="trailing" constant="143" id="eYn-dz-xYp"/>
+                <constraint firstAttribute="bottom" secondItem="59H-QI-nEV" secondAttribute="bottom" constant="255" id="go3-gy-A5C"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="24" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="spliter.png" width="114" height="8"/>
+        <image name="time_ipad.png" width="768" height="1024"/>
+    </resources>
+</document>

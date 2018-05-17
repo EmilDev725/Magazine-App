@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TIMES NR CONDENSED.TTF">
+            <string>TimesNRCondensed</string>
+        </array>
+        <array key="TRADEGOTHICLTSTD-BDCN20.OTF">
+            <string>TradeGothicLTStd-BdCn20</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRW-cs-M9T">
+                    <rect key="frame" x="0.0" y="0.0" width="306" height="514"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time_iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="gJz-ON-1jr">
+                            <rect key="frame" x="0.0" y="0.0" width="306" height="514"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D0r-eW-dow" customClass="THLabel">
+                            <rect key="frame" x="26" y="0.0" width="254" height="142"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="TimesNRCondensed" family="Times NR Condensed" pointSize="120"/>
+                            <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="2"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DII-u6-tRn" customClass="THLabel">
+                            <rect key="frame" x="203" y="238.5" width="87" height="61"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <string key="text">THIS
+PERSON</string>
+                            <fontDescription key="fontDescription" name="TradeGothicLTStd-BdCn20" family="Trade Gothic LT Std" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8p-24-70Z" customClass="THLabel">
+                            <rect key="frame" x="202" y="317" width="89.5" height="67"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <string key="text">SHOULD BE
+PERSON OF
+THE YEAR</string>
+                            <fontDescription key="fontDescription" name="TradeGothicLTStd-BdCn20" family="Trade Gothic LT Std" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spliter.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q5f-I8-4wi">
+                            <rect key="frame" x="216" y="303.5" width="61" height="4"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="4" id="sRn-Zq-hNl"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gJz-ON-1jr" firstAttribute="leading" secondItem="eRW-cs-M9T" secondAttribute="leading" id="6Jm-gI-LUI"/>
+                        <constraint firstItem="DII-u6-tRn" firstAttribute="centerY" secondItem="eRW-cs-M9T" secondAttribute="centerY" constant="12" id="E7K-qV-7ab"/>
+                        <constraint firstItem="q8p-24-70Z" firstAttribute="centerX" secondItem="DII-u6-tRn" secondAttribute="centerX" id="F5f-0z-M7H"/>
+                        <constraint firstItem="gJz-ON-1jr" firstAttribute="top" secondItem="eRW-cs-M9T" secondAttribute="top" id="LLc-nQ-4kC"/>
+                        <constraint firstItem="Q5f-I8-4wi" firstAttribute="centerX" secondItem="DII-u6-tRn" secondAttribute="centerX" id="Nwr-aD-J2s"/>
+                        <constraint firstItem="D0r-eW-dow" firstAttribute="centerX" secondItem="eRW-cs-M9T" secondAttribute="centerX" id="TQe-BE-51h"/>
+                        <constraint firstAttribute="trailing" secondItem="gJz-ON-1jr" secondAttribute="trailing" id="a4z-j3-MxS"/>
+                        <constraint firstItem="Q5f-I8-4wi" firstAttribute="width" secondItem="eRW-cs-M9T" secondAttribute="width" multiplier="1:5" id="g5m-bc-Psx"/>
+                        <constraint firstAttribute="trailing" secondItem="DII-u6-tRn" secondAttribute="trailing" constant="16" id="qF8-s6-cOL"/>
+                        <constraint firstItem="D0r-eW-dow" firstAttribute="top" secondItem="eRW-cs-M9T" secondAttribute="top" id="rWu-05-Czk"/>
+                        <constraint firstItem="Q5f-I8-4wi" firstAttribute="top" secondItem="DII-u6-tRn" secondAttribute="bottom" constant="4" id="tZj-ZF-Zb2"/>
+                        <constraint firstAttribute="bottom" secondItem="gJz-ON-1jr" secondAttribute="bottom" id="vsM-d0-eiO"/>
+                        <constraint firstItem="q8p-24-70Z" firstAttribute="top" secondItem="Q5f-I8-4wi" secondAttribute="bottom" constant="9.5" id="zqh-T3-TyH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eRW-cs-M9T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="07z-AN-usp"/>
+                <constraint firstAttribute="bottom" secondItem="eRW-cs-M9T" secondAttribute="bottom" constant="153" id="JZG-3s-IgD"/>
+                <constraint firstAttribute="trailing" secondItem="eRW-cs-M9T" secondAttribute="trailing" constant="69" id="cRH-mm-Tc5"/>
+                <constraint firstItem="eRW-cs-M9T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ySj-0h-EPP"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="spliter.png" width="114" height="8"/>
+        <image name="time_iphone.png" width="375" height="667"/>
+    </resources>
+</document>

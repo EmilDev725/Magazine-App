@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditTextVC" customModule="Magazine" customModuleProvider="target">
+            <connections>
+                <outlet property="txt_content" destination="jJ1-CV-pTF" id="hVP-lW-vrd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WB6-l4-Bot">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_select_template_iphone.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v7g-Gy-Blz">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVc-hD-S2D">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <color key="backgroundColor" red="0.98633235689999998" green="0.9281800389" blue="0.3252868652" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="R3F-gR-sRs"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDY-jY-oSk">
+                            <rect key="frame" x="8" y="25" width="35" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="TQu-oA-Yye"/>
+                                <constraint firstAttribute="width" constant="35" id="dCI-YL-UqK"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="btn_back.png"/>
+                            <connections>
+                                <action selector="btn_Back_Clicked:" destination="-1" eventType="touchUpInside" id="t7G-SY-edn"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="txt_edittext.png" translatesAutoresizingMaskIntoConstraints="NO" id="orh-Nn-OPn">
+                            <rect key="frame" x="51" y="25" width="187.5" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="orh-Nn-OPn" secondAttribute="height" multiplier="219:56" id="Drq-nK-ztr"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPf-CF-Oaa">
+                            <rect key="frame" x="322" y="108" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="aE8-Ee-FRa"/>
+                                <constraint firstAttribute="height" constant="45" id="mf9-8N-6On"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="btn_font.png"/>
+                            <connections>
+                                <action selector="btnFont_Clicked:" destination="-1" eventType="touchUpInside" id="KVn-e0-wn7"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="font" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hds-Xw-gmX">
+                            <rect key="frame" x="335.5" y="161" width="19.5" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m47-XY-2af">
+                            <rect key="frame" x="322" y="577" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="YEt-vL-7TL"/>
+                                <constraint firstAttribute="height" constant="45" id="uAM-0u-Qjz"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="btn_next.png"/>
+                            <connections>
+                                <action selector="btnNext_Clicked:" destination="-1" eventType="touchUpInside" id="y8i-fU-yRj"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKg-c4-eK1">
+                            <rect key="frame" x="322" y="188" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="3pg-2L-PdC"/>
+                                <constraint firstAttribute="height" constant="45" id="Ntn-CK-eVG"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="btn_texteffect.png"/>
+                            <connections>
+                                <action selector="btnTextEffect_Clicked:" destination="-1" eventType="touchUpInside" id="5kP-zF-vXf"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text effect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaR-C4-Awh">
+                            <rect key="frame" x="320" y="241" width="50" height="12"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jJ1-CV-pTF">
+                            <rect key="frame" x="8" y="108" width="306" height="514"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="orh-Nn-OPn" firstAttribute="top" secondItem="WB6-l4-Bot" secondAttribute="top" constant="25" id="1H8-UW-0Uk"/>
+                        <constraint firstItem="jJ1-CV-pTF" firstAttribute="top" secondItem="qPf-CF-Oaa" secondAttribute="top" id="3Hy-Rw-i1I"/>
+                        <constraint firstItem="hds-Xw-gmX" firstAttribute="top" secondItem="qPf-CF-Oaa" secondAttribute="bottom" constant="8" id="3uU-dR-BLX"/>
+                        <constraint firstItem="gVc-hD-S2D" firstAttribute="leading" secondItem="WB6-l4-Bot" secondAttribute="leading" id="4PW-VM-7Wa"/>
+                        <constraint firstAttribute="trailing" secondItem="v7g-Gy-Blz" secondAttribute="trailing" id="5sv-qO-FGx"/>
+                        <constraint firstItem="PaR-C4-Awh" firstAttribute="centerX" secondItem="LKg-c4-eK1" secondAttribute="centerX" id="8Nz-F5-lK0"/>
+                        <constraint firstAttribute="trailing" secondItem="gVc-hD-S2D" secondAttribute="trailing" id="9n2-IR-ka2"/>
+                        <constraint firstItem="IDY-jY-oSk" firstAttribute="leading" secondItem="WB6-l4-Bot" secondAttribute="leading" constant="8" id="BGj-ii-ou7"/>
+                        <constraint firstAttribute="trailing" secondItem="m47-XY-2af" secondAttribute="trailing" constant="8" id="D5X-Ko-Yx1"/>
+                        <constraint firstItem="v7g-Gy-Blz" firstAttribute="leading" secondItem="WB6-l4-Bot" secondAttribute="leading" id="Dm5-LE-Xyu"/>
+                        <constraint firstItem="IDY-jY-oSk" firstAttribute="top" secondItem="WB6-l4-Bot" secondAttribute="top" constant="25" id="F7T-NT-WWf"/>
+                        <constraint firstItem="jJ1-CV-pTF" firstAttribute="bottom" secondItem="m47-XY-2af" secondAttribute="bottom" id="HjN-Kx-CM6"/>
+                        <constraint firstItem="jJ1-CV-pTF" firstAttribute="top" secondItem="orh-Nn-OPn" secondAttribute="bottom" constant="35" id="NwP-zY-mFr"/>
+                        <constraint firstItem="jJ1-CV-pTF" firstAttribute="leading" secondItem="WB6-l4-Bot" secondAttribute="leading" constant="8" id="UbE-NN-ZM5"/>
+                        <constraint firstItem="v7g-Gy-Blz" firstAttribute="top" secondItem="WB6-l4-Bot" secondAttribute="top" id="XB0-mS-d62"/>
+                        <constraint firstItem="PaR-C4-Awh" firstAttribute="top" secondItem="LKg-c4-eK1" secondAttribute="bottom" constant="8" id="agH-Db-b7h"/>
+                        <constraint firstAttribute="bottom" secondItem="m47-XY-2af" secondAttribute="bottom" constant="45" id="eO4-C8-DQg"/>
+                        <constraint firstItem="hds-Xw-gmX" firstAttribute="centerX" secondItem="qPf-CF-Oaa" secondAttribute="centerX" id="g1Q-kS-zts"/>
+                        <constraint firstItem="LKg-c4-eK1" firstAttribute="top" secondItem="hds-Xw-gmX" secondAttribute="bottom" constant="15" id="gbW-9w-Rah"/>
+                        <constraint firstAttribute="bottom" secondItem="v7g-Gy-Blz" secondAttribute="bottom" id="hLs-rc-pGt"/>
+                        <constraint firstItem="LKg-c4-eK1" firstAttribute="centerX" secondItem="qPf-CF-Oaa" secondAttribute="centerX" id="hw2-70-znb"/>
+                        <constraint firstItem="orh-Nn-OPn" firstAttribute="leading" secondItem="IDY-jY-oSk" secondAttribute="trailing" constant="8" id="kwP-ps-azb"/>
+                        <constraint firstItem="gVc-hD-S2D" firstAttribute="top" secondItem="WB6-l4-Bot" secondAttribute="top" id="l45-nX-m24"/>
+                        <constraint firstAttribute="trailing" secondItem="qPf-CF-Oaa" secondAttribute="trailing" constant="8" id="pQY-cV-VyI"/>
+                        <constraint firstItem="orh-Nn-OPn" firstAttribute="width" secondItem="WB6-l4-Bot" secondAttribute="width" multiplier="1:2" id="rre-SX-vWK"/>
+                        <constraint firstItem="qPf-CF-Oaa" firstAttribute="leading" secondItem="jJ1-CV-pTF" secondAttribute="trailing" constant="8" id="uAu-Hk-hh6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WB6-l4-Bot" secondAttribute="bottom" id="0ag-rW-3uV"/>
+                <constraint firstAttribute="trailing" secondItem="WB6-l4-Bot" secondAttribute="trailing" id="UT7-vr-R6k"/>
+                <constraint firstItem="WB6-l4-Bot" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="g1i-N8-LIy"/>
+                <constraint firstItem="WB6-l4-Bot" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uhw-VH-wha"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_select_template_iphone.jpg" width="375" height="667"/>
+        <image name="btn_back.png" width="30" height="30"/>
+        <image name="btn_font.png" width="60" height="60"/>
+        <image name="btn_next.png" width="60" height="60"/>
+        <image name="btn_texteffect.png" width="60" height="60"/>
+        <image name="txt_edittext.png" width="219" height="56"/>
+    </resources>
+</document>

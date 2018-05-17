@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nicholas-Bold.ttf">
+            <string>Nicholas-Bold</string>
+        </array>
+        <array key="OpenSans-CondBold.ttf">
+            <string>OpenSans-CondensedBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGW-qZ-uzM">
+                    <rect key="frame" x="0.0" y="0.0" width="307" height="514"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forbes_iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="AsH-oT-sDm">
+                            <rect key="frame" x="0.0" y="0.0" width="307" height="514"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forbes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drt-fa-Kdq" customClass="THLabel">
+                            <rect key="frame" x="24" y="50" width="259" height="87"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Nicholas-Bold" family="Nicholas" pointSize="92"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="2" height="2"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POWER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ki6-HW-jBx" customClass="THLabel">
+                            <rect key="frame" x="54" y="341" width="190" height="94"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="68"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCL-ON-n1W" customClass="THLabel">
+                            <rect key="frame" x="55.5" y="395" width="190" height="94"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="68"/>
+                            <color key="textColor" red="0.98633235689999998" green="0.9281800389" blue="0.3252868652" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXCLUSIVE:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHH-H8-Wef" customClass="THLabel">
+                            <rect key="frame" x="7" y="4" width="79.5" height="27"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="18.799999237060547"/>
+                            <color key="textColor" red="0.77366566660000002" green="0.97872632739999998" blue="0.9896582961" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRY TO GET RICH WITHOUT DYING" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GH9-TW-5CC" customClass="THLabel">
+                            <rect key="frame" x="8" y="22" width="245.5" height="27"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="OpenSans-CondensedBold" family="Open Sans Condensed" pointSize="18.799999237060547"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="yHH-H8-Wef" firstAttribute="top" secondItem="xGW-qZ-uzM" secondAttribute="top" constant="4" id="0Hb-aj-8fv"/>
+                        <constraint firstAttribute="bottom" secondItem="zCL-ON-n1W" secondAttribute="bottom" constant="25" id="IGK-uq-bnP"/>
+                        <constraint firstItem="drt-fa-Kdq" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" id="J0m-8c-hdA"/>
+                        <constraint firstItem="AsH-oT-sDm" firstAttribute="leading" secondItem="xGW-qZ-uzM" secondAttribute="leading" id="KkI-xx-4XF"/>
+                        <constraint firstItem="yHH-H8-Wef" firstAttribute="leading" secondItem="xGW-qZ-uzM" secondAttribute="leading" constant="7" id="NQI-ro-Tph"/>
+                        <constraint firstItem="drt-fa-Kdq" firstAttribute="top" secondItem="xGW-qZ-uzM" secondAttribute="top" constant="50" id="RUp-Jv-FpT"/>
+                        <constraint firstItem="AsH-oT-sDm" firstAttribute="top" secondItem="xGW-qZ-uzM" secondAttribute="top" id="UQQ-is-Up6"/>
+                        <constraint firstItem="GH9-TW-5CC" firstAttribute="leading" secondItem="xGW-qZ-uzM" secondAttribute="leading" constant="8" id="XxW-ES-eWd"/>
+                        <constraint firstAttribute="bottom" secondItem="AsH-oT-sDm" secondAttribute="bottom" id="e9z-UQ-dB1"/>
+                        <constraint firstItem="Ki6-HW-jBx" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" constant="-5" id="et7-vp-e6h"/>
+                        <constraint firstItem="zCL-ON-n1W" firstAttribute="top" secondItem="Ki6-HW-jBx" secondAttribute="bottom" constant="-40" id="gCH-Oh-tRl"/>
+                        <constraint firstAttribute="trailing" secondItem="AsH-oT-sDm" secondAttribute="trailing" id="if2-kh-ML2"/>
+                        <constraint firstItem="zCL-ON-n1W" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" constant="-3" id="mdm-IC-a1Z"/>
+                        <constraint firstItem="GH9-TW-5CC" firstAttribute="top" secondItem="xGW-qZ-uzM" secondAttribute="top" constant="22" id="uHy-6w-e82"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xGW-qZ-uzM" secondAttribute="bottom" constant="153" id="0y9-uP-vGM"/>
+                <constraint firstItem="xGW-qZ-uzM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1R4-2O-4PB"/>
+                <constraint firstItem="xGW-qZ-uzM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Txo-Sg-jxa"/>
+                <constraint firstAttribute="trailing" secondItem="xGW-qZ-uzM" secondAttribute="trailing" constant="68" id="oFi-UA-2lz"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="forbes_iphone.png" width="375" height="667"/>
+    </resources>
+</document>

@@ -1,0 +1,34 @@
+PODS:
+  - ChromaColorPicker (1.7)
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - Sharaku (1.0.2)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - TOCropViewController (2.3.6)
+
+DEPENDENCIES:
+  - ChromaColorPicker
+  - Google-Mobile-Ads-SDK
+  - Sharaku
+  - SQLite.swift
+  - TOCropViewController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ChromaColorPicker
+    - Google-Mobile-Ads-SDK
+    - Sharaku
+    - SQLite.swift
+    - TOCropViewController
+
+SPEC CHECKSUMS:
+  ChromaColorPicker: 33efa67b17cca51dd253689d18b83ac7e05642c2
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  Sharaku: c18de569fc99f6e936f46ca812b571826cc658a7
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  TOCropViewController: 6d972f2c609372312648f96758e13a7f689efbc0
+
+PODFILE CHECKSUM: 927e5370d5f788cba5202cee513345834eb5461d
+
+COCOAPODS: 1.5.2

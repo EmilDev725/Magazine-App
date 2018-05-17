@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EnterTitleVC.viewDidAppear(_:):EnterTitleVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentProject?.template.title.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Common.findLocationOfComponent(frame:):Common.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rect_Container">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddPhotoVC.viewDidAppear(_:):AddPhotoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view_container.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "view_container.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

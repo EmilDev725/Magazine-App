@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialBold.ttf">
+            <string>Arial-BoldMT</string>
+        </array>
+        <array key="Futura.ttc">
+            <string>Futura-Bold</string>
+            <string>Futura-Medium</string>
+        </array>
+        <array key="SCRIPTIN_0.ttf">
+            <string>Scriptina</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGW-qZ-uzM">
+                    <rect key="frame" x="0.0" y="0.0" width="307" height="514"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playboy_iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="AsH-oT-sDm">
+                            <rect key="frame" x="0.0" y="0.0" width="307" height="514"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTERTAINMENT FOR MEN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="drt-fa-Kdq" customClass="THLabel">
+                            <rect key="frame" x="5" y="50.5" width="123.5" height="11"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="9.1999998092651367"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HUGH M" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pIH-cD-85C" customClass="THLabel">
+                            <rect key="frame" x="8" y="118" width="69.5" height="21"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HERNER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zlf-3a-rTo" customClass="THLabel">
+                            <rect key="frame" x="8" y="134.5" width="86.5" height="26"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1926-2017" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCA-oJ-Ubg" customClass="THLabel">
+                            <rect key="frame" x="6" y="154.5" width="83.5" height="22.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEET THE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2hb-Su-K1R" customClass="THLabel">
+                            <rect key="frame" x="7.5" y="205.5" width="75" height="21"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUNNIES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zwK-Co-E0e" customClass="THLabel">
+                            <rect key="frame" x="6" y="220.5" width="98" height="26"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INSIDE 12-39" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oju-BC-wAy" customClass="THLabel">
+                            <rect key="frame" x="5" y="241.5" width="100" height="21"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW TO BE A REAL MAN" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RP-42-LhD" customClass="THLabel">
+                            <rect key="frame" x="7" y="312.5" width="81.5" height="34"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SuperSexy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Zd-zf-eJH" customClass="THLabel">
+                            <rect key="frame" x="85.5" y="344.5" width="201.5" height="169.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Scriptina" family="Scriptina" pointSize="58"/>
+                            <color key="textColor" red="0.67239373920000001" green="0.44093298910000001" blue="0.44967716930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" red="0.67239373920000001" green="0.44093298910000001" blue="0.44967716930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="2hb-Su-K1R" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3.4" id="E2u-vX-QR7"/>
+                        <constraint firstItem="zlf-3a-rTo" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3" id="GK4-H3-EXt"/>
+                        <constraint firstItem="AsH-oT-sDm" firstAttribute="leading" secondItem="xGW-qZ-uzM" secondAttribute="leading" id="KkI-xx-4XF"/>
+                        <constraint firstItem="fCA-oJ-Ubg" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.55" id="MHs-an-fS3"/>
+                        <constraint firstAttribute="trailing" secondItem="5Zd-zf-eJH" secondAttribute="trailing" constant="20" id="OSx-xF-sZC"/>
+                        <constraint firstItem="Oju-BC-wAy" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.02" id="Ppr-eQ-nce"/>
+                        <constraint firstItem="drt-fa-Kdq" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:4.6" id="R3h-AP-yvT"/>
+                        <constraint firstItem="AsH-oT-sDm" firstAttribute="top" secondItem="xGW-qZ-uzM" secondAttribute="top" id="UQQ-is-Up6"/>
+                        <constraint firstItem="pIH-cD-85C" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:2" id="Xvl-zH-1X3"/>
+                        <constraint firstItem="drt-fa-Kdq" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:2.3" id="ZuC-t2-Qps"/>
+                        <constraint firstItem="zwK-Co-E0e" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:2.8" id="aHT-66-Vnh"/>
+                        <constraint firstItem="Oju-BC-wAy" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:2.8" id="aIH-hu-db0"/>
+                        <constraint firstItem="zwK-Co-E0e" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.1" id="bjZ-N9-i3S"/>
+                        <constraint firstItem="8RP-42-LhD" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1.28:1" id="dou-z2-Klg"/>
+                        <constraint firstAttribute="bottom" secondItem="AsH-oT-sDm" secondAttribute="bottom" id="e9z-UQ-dB1"/>
+                        <constraint firstItem="pIH-cD-85C" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3.6" id="fRb-cR-QMN"/>
+                        <constraint firstItem="8RP-42-LhD" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3.2" id="geb-Kg-gYa"/>
+                        <constraint firstAttribute="bottom" secondItem="5Zd-zf-eJH" secondAttribute="bottom" id="hE1-I7-F9e"/>
+                        <constraint firstItem="zlf-3a-rTo" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.75" id="iG1-RG-Uod"/>
+                        <constraint firstAttribute="trailing" secondItem="AsH-oT-sDm" secondAttribute="trailing" id="if2-kh-ML2"/>
+                        <constraint firstItem="fCA-oJ-Ubg" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3.2" id="kzu-Wj-gDS"/>
+                        <constraint firstItem="2hb-Su-K1R" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.19" id="ojC-Vo-asg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xGW-qZ-uzM" secondAttribute="bottom" constant="153" id="0y9-uP-vGM"/>
+                <constraint firstItem="xGW-qZ-uzM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1R4-2O-4PB"/>
+                <constraint firstItem="xGW-qZ-uzM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Txo-Sg-jxa"/>
+                <constraint firstAttribute="trailing" secondItem="xGW-qZ-uzM" secondAttribute="trailing" constant="68" id="oFi-UA-2lz"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="playboy_iphone.png" width="750" height="1334"/>
+    </resources>
+</document>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHAPROBOL.OTF">
+            <string>GothamPro-Bold</string>
+        </array>
+        <array key="TimesNewRoman.ttf">
+            <string>TimesNewRomanPSMT</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4di-wi-PbD">
+                    <rect key="frame" x="0.0" y="0.0" width="625" height="769"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nationalgeographic_ipad.png" translatesAutoresizingMaskIntoConstraints="NO" id="jjC-wR-b3v">
+                            <rect key="frame" x="0.0" y="0.0" width="625" height="769"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NATIONAL GEOGRAPHIC" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TpP-2E-9BY" customClass="THLabel">
+                            <rect key="frame" x="67.5" y="30" width="491" height="168.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="76"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="-1" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALMOST" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yM3-25-ela" customClass="THLabel">
+                            <rect key="frame" x="71" y="525" width="483.5" height="99"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="GothamPro-Bold" family="Gotham Pro" pointSize="110"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HUMAN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0t-XY-ctw" customClass="THLabel">
+                            <rect key="frame" x="95" y="643" width="436.5" height="99"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="GothamPro-Bold" family="Gotham Pro" pointSize="110"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A NEW SPECIES DISCOVERED" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyE-D8-pPu" customClass="THLabel">
+                            <rect key="frame" x="64.5" y="614" width="496.5" height="29"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="GothamPro-Bold" family="Gotham Pro" pointSize="32"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <size key="shadowOffset" width="0.0" height="1"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="TpP-2E-9BY" firstAttribute="centerX" secondItem="4di-wi-PbD" secondAttribute="centerX" id="Ba1-bE-Wav"/>
+                        <constraint firstItem="g0t-XY-ctw" firstAttribute="top" secondItem="NyE-D8-pPu" secondAttribute="bottom" id="Dfm-Cy-VfB"/>
+                        <constraint firstItem="NyE-D8-pPu" firstAttribute="top" secondItem="yM3-25-ela" secondAttribute="bottom" constant="-10" id="Nhx-xE-tyi"/>
+                        <constraint firstItem="g0t-XY-ctw" firstAttribute="centerX" secondItem="4di-wi-PbD" secondAttribute="centerX" id="PNH-td-fD1"/>
+                        <constraint firstItem="jjC-wR-b3v" firstAttribute="leading" secondItem="4di-wi-PbD" secondAttribute="leading" id="QTR-fx-V39"/>
+                        <constraint firstItem="GBo-0k-ob7" firstAttribute="bottom" secondItem="g0t-XY-ctw" secondAttribute="bottom" constant="27" id="S1Y-mr-1t2"/>
+                        <constraint firstItem="TpP-2E-9BY" firstAttribute="top" secondItem="4di-wi-PbD" secondAttribute="top" constant="30" id="YDM-ku-uNL"/>
+                        <constraint firstItem="yM3-25-ela" firstAttribute="centerX" secondItem="4di-wi-PbD" secondAttribute="centerX" id="ZrM-9s-G0l"/>
+                        <constraint firstAttribute="trailing" secondItem="jjC-wR-b3v" secondAttribute="trailing" id="lLF-2Z-mGv"/>
+                        <constraint firstItem="jjC-wR-b3v" firstAttribute="top" secondItem="4di-wi-PbD" secondAttribute="top" id="oEK-5C-ycJ"/>
+                        <constraint firstItem="NyE-D8-pPu" firstAttribute="centerX" secondItem="4di-wi-PbD" secondAttribute="centerX" id="qRG-Ek-P7J"/>
+                        <constraint firstAttribute="bottom" secondItem="jjC-wR-b3v" secondAttribute="bottom" id="tha-4O-2wz"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="GBo-0k-ob7"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4di-wi-PbD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FYJ-7I-a6m"/>
+                <constraint firstItem="4di-wi-PbD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UHx-u1-O7f"/>
+                <constraint firstAttribute="trailing" secondItem="4di-wi-PbD" secondAttribute="trailing" constant="143" id="Xx1-Ho-M7S"/>
+                <constraint firstAttribute="bottom" secondItem="4di-wi-PbD" secondAttribute="bottom" constant="255" id="z8V-b4-fkr"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="nationalgeographic_ipad.png" width="768" height="1024"/>
+    </resources>
+</document>

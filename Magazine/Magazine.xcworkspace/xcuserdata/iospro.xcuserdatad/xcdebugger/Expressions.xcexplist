@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AddTextVC.addTextsInTemplate():AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "txt.frame">
+            </PersistentString>
+            <PersistentString
+               value = "txt.shadowColor?.cgColor">
+            </PersistentString>
+            <PersistentString
+               value = "txt.shadowColor?.cgColor.components">
+            </PersistentString>
+            <PersistentString
+               value = "txt.text">
+            </PersistentString>
+            <PersistentString
+               value = "selectedTemplate.textViews">
+            </PersistentString>
+            <PersistentString
+               value = "txt.shadowColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.MoveAction(gesture:):AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gesture.view ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.saveComponentsToSQLite(project:):AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view as! UITextView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainMenuVC.productsRequest(_:didReceive:):MainMenuVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.products">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.addTextsInProject():AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentProject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProjectsVC.collectionView(_:didSelectItemAt:):ProjectsVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentProject?.textViews">
+            </PersistentString>
+            <PersistentString
+               value = "currentProject?.imageViews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.applyTextEffect():AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.editedStyleText.innerShadowColor">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.editedStyleText">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.editedStyleText.innerShadowOffset">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.editedStyleText.innerShadowBlur">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.isImageMoveEnabled(imageview:):AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageview.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "view_container.frame.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SQLiteManager.updateTextsWithTextViewOnSQLite(txt:id:str_project:):SQLiteManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "txt.strokeColor">
+            </PersistentString>
+            <PersistentString
+               value = "txt.gradientStartColor">
+            </PersistentString>
+            <PersistentString
+               value = "txt.shadowColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.viewDidAppear(_:):AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleView?.isFocused">
+            </PersistentString>
+            <PersistentString
+               value = "activatedText?.font.pointSize">
+            </PersistentString>
+            <PersistentString
+               value = "activatedText">
+            </PersistentString>
+            <PersistentString
+               value = "titleView">
+            </PersistentString>
+            <PersistentString
+               value = "(activatedText?.text)!">
+            </PersistentString>
+            <PersistentString
+               value = "activatedText?.frame">
+            </PersistentString>
+            <PersistentString
+               value = "activatedText.frame">
+            </PersistentString>
+            <PersistentString
+               value = "activatedText?.numberOfLines">
+            </PersistentString>
+            <PersistentString
+               value = "selectedTextContent">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate.editedStyleText.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Common.collectThemeComponentsFromXib(index:):Common.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "component.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.editText(sender:):AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "activatedText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddPhotoVC.captureImage():AddPhotoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view_container.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "img_cover.frame">
+            </PersistentString>
+            <PersistentString
+               value = "img_cover.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SQLiteManager.updateTextsWithTextViewOnSQLite(txt:id:project:):SQLiteManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "txt.textColor">
+            </PersistentString>
+            <PersistentString
+               value = "txt.textColor?.cgColor">
+            </PersistentString>
+            <PersistentString
+               value = "txt.textColor?.cgColor.components">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Common.findLocationOfComponent(frame:):Common.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rect_Container">
+            </PersistentString>
+            <PersistentString
+               value = "UIScreen.main.nativeBounds.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectTemplateVC.collectionView(_:didSelectItemAt:):SelectTemplateVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedTemplate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddPhotoVC.viewWillAppear(_:):AddPhotoVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "img_cover.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
