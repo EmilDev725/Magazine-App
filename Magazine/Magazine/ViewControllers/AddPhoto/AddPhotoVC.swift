@@ -17,6 +17,8 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var img_cover: UIImageView!
     
     @IBOutlet weak var view_container: UIView!
+    
+    @IBOutlet weak var view_Admob: UIView!
    
     var CIFilterNames = [String]()
     var img_temp : UIImage?
@@ -49,14 +51,21 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
         CIFilterNames = CIFilter.filterNames(inCategory: nil)
         img_magazine.contentMode = .scaleAspectFit
         img_temp = nil
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
+        rect_Container = view_container.frame
+        
+        // Admob Banner
         switch UIDevice.current.userInterfaceIdiom {
         case .pad:
-            let bannerFrame = CGRect(x: 0, y: Main_Screen_Height - 90, width: Main_Screen_Width, height: 90)
+            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
             bannerView = GADBannerView(frame: bannerFrame)
             break
         default:
-            let bannerFrame = CGRect(x: 0, y: Main_Screen_Height - 50, width: Main_Screen_Width, height: 50)
+            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
             bannerView = GADBannerView(frame: bannerFrame)
             break
         }
@@ -66,10 +75,6 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         bannerView.delegate = self
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        rect_Container = view_container.frame
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -194,24 +199,7 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
     }
     
     func addBannerViewToView(_ bannerView: GADBannerView) {
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        view.addConstraints(
-            [NSLayoutConstraint(item: bannerView,
-                                attribute: .bottom,
-                                relatedBy: .equal,
-                                toItem: bottomLayoutGuide,
-                                attribute: .top,
-                                multiplier: 1,
-                                constant: 0),
-             NSLayoutConstraint(item: bannerView,
-                                attribute: .centerX,
-                                relatedBy: .equal,
-                                toItem: view,
-                                attribute: .centerX,
-                                multiplier: 1,
-                                constant: 0)
-            ])
+        view_Admob.addSubview(bannerView)
     }
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         print("adViewDidReceiveAd")

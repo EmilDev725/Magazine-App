@@ -15,6 +15,7 @@ class AddTextVC: UIViewController, GADBannerViewDelegate{
     @IBOutlet weak var img_magazine: UIImageView!
     
     @IBOutlet weak var view_container: UIView!
+    @IBOutlet weak var view_Admob: UIView!
    
     var titleView: UITextField?
     var isTitleInEditing : Bool = false
@@ -46,13 +47,14 @@ class AddTextVC: UIViewController, GADBannerViewDelegate{
         
         isFirstTimeLoading = true
         
+        // Admob Banner
         switch UIDevice.current.userInterfaceIdiom {
         case .pad:
-            let bannerFrame = CGRect(x: 0, y: Main_Screen_Height - 90, width: Main_Screen_Width, height: 90)
+            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
             bannerView = GADBannerView(frame: bannerFrame)
             break
         default:
-            let bannerFrame = CGRect(x: 0, y: Main_Screen_Height - 50, width: Main_Screen_Width, height: 50)
+            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
             bannerView = GADBannerView(frame: bannerFrame)
             break
         }
@@ -435,25 +437,9 @@ class AddTextVC: UIViewController, GADBannerViewDelegate{
     }
     
     func addBannerViewToView(_ bannerView: GADBannerView) {
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        view.addConstraints(
-            [NSLayoutConstraint(item: bannerView,
-                                attribute: .bottom,
-                                relatedBy: .equal,
-                                toItem: bottomLayoutGuide,
-                                attribute: .top,
-                                multiplier: 1,
-                                constant: 0),
-             NSLayoutConstraint(item: bannerView,
-                                attribute: .centerX,
-                                relatedBy: .equal,
-                                toItem: view,
-                                attribute: .centerX,
-                                multiplier: 1,
-                                constant: 0)
-            ])
+        view_Admob.addSubview(bannerView)
     }
+    
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {
         print("adViewDidReceiveAd")
         bannerView.alpha = 0

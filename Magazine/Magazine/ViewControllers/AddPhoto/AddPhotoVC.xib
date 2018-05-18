@@ -16,6 +16,7 @@
                 <outlet property="img_cover" destination="SCl-0G-iF2" id="7Wu-s6-GDc"/>
                 <outlet property="img_magazine" destination="bG2-Fk-OF4" id="2aJ-nr-tmp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_Admob" destination="tzb-WR-qq3" id="6r4-sW-fYI"/>
                 <outlet property="view_container" destination="v17-dr-T1h" id="XhY-7e-lSR"/>
             </connections>
         </placeholder>
@@ -178,7 +179,7 @@
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tzb-WR-qq3">
                             <rect key="frame" x="0.0" y="617" width="375" height="50"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="X9t-pA-FEY"/>
                             </constraints>

@@ -15,7 +15,7 @@ class SelectTemplateVC: UIViewController, GADBannerViewDelegate {
 
     @IBOutlet weak var templatesCollection: UICollectionView!
     
-    @IBOutlet weak var viewAdmob: UIView!
+    @IBOutlet weak var view_Admob: UIView!
     @IBOutlet weak var bannerHeightConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
@@ -33,7 +33,7 @@ class SelectTemplateVC: UIViewController, GADBannerViewDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        //Admob Banner
+        // Admob Banner
         switch UIDevice.current.userInterfaceIdiom {
         case .pad:
             let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
@@ -132,7 +132,7 @@ extension SelectTemplateVC: UICollectionViewDelegate, UICollectionViewDataSource
     }    
     
     func addBannerViewToView(_ bannerView: GADBannerView) {
-        viewAdmob.addSubview(bannerView)
+        view_Admob.addSubview(bannerView)
     }
     
     func adViewDidReceiveAd(_ bannerView: GADBannerView) {

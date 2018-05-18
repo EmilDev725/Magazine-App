@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,6 +15,7 @@
             <connections>
                 <outlet property="img_magazine" destination="NLi-eG-v53" id="Zpb-Pe-AzQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_Admob" destination="Y3X-uC-vjM" id="1Jk-Yk-bu2"/>
                 <outlet property="view_container" destination="Q1F-Gt-x4R" id="gBf-vG-h8D"/>
             </connections>
         </placeholder>
@@ -130,13 +131,23 @@
                                 <constraint firstAttribute="bottom" secondItem="Ase-Xg-M86" secondAttribute="bottom" constant="60" id="yil-wg-T6a"/>
                             </constraints>
                         </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3X-uC-vjM">
+                            <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="wcM-uy-DKU"/>
+                            </constraints>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="CC1-iU-Nwz" firstAttribute="leading" secondItem="KQo-3E-dyd" secondAttribute="leading" id="EaC-zu-nY7"/>
                         <constraint firstAttribute="bottom" secondItem="CC1-iU-Nwz" secondAttribute="bottom" id="JbC-Dz-doM"/>
                         <constraint firstAttribute="trailing" secondItem="CC1-iU-Nwz" secondAttribute="trailing" id="Lej-4g-yRw"/>
+                        <constraint firstAttribute="trailing" secondItem="Y3X-uC-vjM" secondAttribute="trailing" id="SHu-NS-AYU"/>
                         <constraint firstItem="CC1-iU-Nwz" firstAttribute="top" secondItem="KQo-3E-dyd" secondAttribute="top" id="Xqb-aw-wsJ"/>
+                        <constraint firstItem="Y3X-uC-vjM" firstAttribute="leading" secondItem="KQo-3E-dyd" secondAttribute="leading" id="quG-a8-LoS"/>
+                        <constraint firstAttribute="bottom" secondItem="Y3X-uC-vjM" secondAttribute="bottom" id="zk3-9h-TDG"/>
                     </constraints>
                 </view>
             </subviews>
@@ -149,6 +160,7 @@
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
     <resources>

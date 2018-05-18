@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="ArialBold.ttf">
-            <string>Arial-BoldMT</string>
-        </array>
-        <array key="Futura.ttc">
-            <string>Futura-Bold</string>
-            <string>Futura-Medium</string>
-        </array>
         <array key="SCRIPTIN_0.ttf">
             <string>Scriptina</string>
         </array>
@@ -91,7 +84,7 @@
                             <size key="shadowOffset" width="0.0" height="0.0"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SuperSexy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYi-DK-DyQ" customClass="THLabel">
-                            <rect key="frame" x="255.5" y="491.5" width="329.5" height="277.5"/>
+                            <rect key="frame" x="255.5" y="483.5" width="329.5" height="277.5"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" name="Scriptina" family="Scriptina" pointSize="95"/>
                             <color key="textColor" red="0.67239373922348022" green="0.4409329891204834" blue="0.44967716932296753" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -121,7 +114,7 @@
                         <constraint firstItem="wXm-5J-bcn" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.02:1" id="Wnn-d2-7p4"/>
                         <constraint firstItem="VdU-fP-AS5" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.2" id="bid-b3-J3F"/>
                         <constraint firstAttribute="trailing" secondItem="bYi-DK-DyQ" secondAttribute="trailing" constant="40" id="cKD-Jm-nhU"/>
-                        <constraint firstAttribute="bottom" secondItem="bYi-DK-DyQ" secondAttribute="bottom" id="dzr-bh-gQZ"/>
+                        <constraint firstAttribute="bottom" secondItem="bYi-DK-DyQ" secondAttribute="bottom" constant="8" id="dzr-bh-gQZ"/>
                         <constraint firstItem="kgw-AN-RQl" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:1.14" id="eAO-R9-toJ"/>
                         <constraint firstItem="kgw-AN-RQl" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.9" id="f9s-5m-sMd"/>
                         <constraint firstItem="mhV-tE-lVL" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.33:1" id="jJT-Gh-TdC"/>

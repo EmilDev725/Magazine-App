@@ -215,6 +215,7 @@
 		179390F7216383C2E5DBBA0B /* Pods_MagazineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C15DF71BA448E21BBEBE39 /* Pods_MagazineTests.framework */; };
 		1C83195CA399F98D684F18FD /* Pods_Magazine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D389E4E7C879CFA930677901 /* Pods_Magazine.framework */; };
 		E94C614B7F5CCD15D16C0876 /* Pods_MagazineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47576F089EF8EA6B6B5F7D9E /* Pods_MagazineUITests.framework */; };
+		F2E8944B20ADF9BF00A7ACA4 /* BEVAN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F2E8944A20ADF9BE00A7ACA4 /* BEVAN.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -464,6 +465,7 @@
 		B03A13290387791CB30CE00F /* Pods-MagazineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagazineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagazineUITests/Pods-MagazineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BC562AED94B2799A44DA5435 /* Pods-MagazineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagazineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagazineUITests/Pods-MagazineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D389E4E7C879CFA930677901 /* Pods_Magazine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magazine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E8944A20ADF9BE00A7ACA4 /* BEVAN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEVAN.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,6 +533,7 @@
 		0B497EFE2051D9D100101FB1 /* Custom Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F2E8944A20ADF9BE00A7ACA4 /* BEVAN.TTF */,
 				0BF70CDB205F61FD009E8D73 /* SCRIPTUS.otf */,
 				0B4EFD9A2056410F00D744DA /* antenna-1361848101_1.ttf */,
 				0B4EFD972056410E00D744DA /* Cairo.ttf */,
@@ -1152,6 +1155,7 @@
 				0B4EFDB22056411200D744DA /* OpenSans-Light_1.ttf in Resources */,
 				0BF7757620078E810075390D /* EnterTitleVC.xib in Resources */,
 				0B4EFDCF2056422C00D744DA /* theme3_ipad.png in Resources */,
+				F2E8944B20ADF9BF00A7ACA4 /* BEVAN.TTF in Resources */,
 				0B4EFDCC2056422C00D744DA /* forbes_ipad.png in Resources */,
 				0B7067D6201569B3000D8C72 /* icon20.png in Resources */,
 				0BF775652007853E0075390D /* add_text_ipad.jpg in Resources */,

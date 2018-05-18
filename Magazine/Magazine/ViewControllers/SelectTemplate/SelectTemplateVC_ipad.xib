@@ -16,7 +16,7 @@
                 <outlet property="bannerHeightConstraint" destination="JnO-Cj-VtA" id="kym-Lz-UQD"/>
                 <outlet property="templatesCollection" destination="AjK-de-EFu" id="Zqm-ht-1QP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="viewAdmob" destination="oHW-TH-o71" id="Agb-eT-pPB"/>
+                <outlet property="view_Admob" destination="oHW-TH-o71" id="cOA-j9-3sA"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
