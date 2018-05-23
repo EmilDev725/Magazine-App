@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="BEVAN.TTF">
+            <string>Bevan</string>
+        </array>
         <array key="SCRIPTIN_0.ttf">
             <string>Scriptina</string>
         </array>
@@ -43,13 +46,22 @@
                             <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                             <size key="shadowOffset" width="0.0" height="0.0"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HERNER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zlf-3a-rTo" customClass="THLabel">
-                            <rect key="frame" x="8" y="134.5" width="86.5" height="26"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEFNER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zlf-3a-rTo" customClass="THLabel">
+                            <rect key="frame" x="10" y="134.5" width="83" height="26"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="20"/>
                             <nil key="highlightedColor"/>
                             <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                             <size key="shadowOffset" width="0.0" height="0.0"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYBOY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNQ-XD-ESM" customClass="THLabel">
+                            <rect key="frame" x="4" y="-17" width="305.5" height="91.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Bevan" family="Bevan" pointSize="56"/>
+                            <color key="textColor" red="0.70980392156862748" green="0.42745098039215684" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <size key="shadowOffset" width="1" height="1"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1926-2017" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCA-oJ-Ubg" customClass="THLabel">
                             <rect key="frame" x="6" y="154.5" width="83.5" height="22.5"/>
@@ -103,12 +115,14 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="oNQ-XD-ESM" firstAttribute="leading" secondItem="xGW-qZ-uzM" secondAttribute="leading" constant="4" id="52r-Qy-HG4"/>
                         <constraint firstItem="2hb-Su-K1R" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3.4" id="E2u-vX-QR7"/>
                         <constraint firstItem="zlf-3a-rTo" firstAttribute="centerX" secondItem="xGW-qZ-uzM" secondAttribute="centerX" multiplier="1:3" id="GK4-H3-EXt"/>
                         <constraint firstItem="AsH-oT-sDm" firstAttribute="leading" secondItem="xGW-qZ-uzM" secondAttribute="leading" id="KkI-xx-4XF"/>
                         <constraint firstItem="fCA-oJ-Ubg" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.55" id="MHs-an-fS3"/>
                         <constraint firstAttribute="trailing" secondItem="5Zd-zf-eJH" secondAttribute="trailing" constant="20" id="OSx-xF-sZC"/>
                         <constraint firstItem="Oju-BC-wAy" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:1.02" id="Ppr-eQ-nce"/>
+                        <constraint firstItem="oNQ-XD-ESM" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:9" id="Qxl-YK-8mr"/>
                         <constraint firstItem="drt-fa-Kdq" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:4.6" id="R3h-AP-yvT"/>
                         <constraint firstItem="AsH-oT-sDm" firstAttribute="top" secondItem="xGW-qZ-uzM" secondAttribute="top" id="UQQ-is-Up6"/>
                         <constraint firstItem="pIH-cD-85C" firstAttribute="centerY" secondItem="xGW-qZ-uzM" secondAttribute="centerY" multiplier="1:2" id="Xvl-zH-1X3"/>
@@ -135,6 +149,7 @@
                 <constraint firstItem="xGW-qZ-uzM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Txo-Sg-jxa"/>
                 <constraint firstAttribute="trailing" secondItem="xGW-qZ-uzM" secondAttribute="trailing" constant="68" id="oFi-UA-2lz"/>
             </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
     <resources>

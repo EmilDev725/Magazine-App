@@ -267,8 +267,19 @@ class AddTextVC: UIViewController, GADBannerViewDelegate{
         return true
     }
     
+    //MARK: - Buttons' Actions
     @IBAction func btn_Back_Clicked(_ sender: Any) {
-        _ = self.navigationController?.popViewController(animated: true)
+        let alertView = UIAlertController(title: "Notice", message: kNoticeUnSavedText, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: { (alert) in
+            // Action for "OK" button
+            _ = self.navigationController?.popViewController(animated: true)
+        })
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.destructive) { (result : UIAlertAction) -> Void in
+            print("cancel")
+        }
+        alertView.addAction(okAction)
+        alertView.addAction(cancelAction)
+        self.present(alertView, animated: true, completion: nil)
     }
     
     @IBAction func btnSave_Clicked(_ sender: Any) {

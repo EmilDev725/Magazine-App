@@ -98,6 +98,8 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
             self.present(cropViewController, animated: true, completion: nil)
         }
     }
+    
+    //MARK: - Buttons' Actions
     @IBAction func btn_Back_Clicked(_ sender: Any) {
         _ = self.navigationController?.popViewController(animated: true)
     }
@@ -181,6 +183,10 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
     }
     
     @IBAction func btnNext_Clicked(_ sender: Any) {
+        self.goToAddTextVC()
+    }
+    
+    func goToAddTextVC() {
         currentProject?.titleEdited = false
         currentProject?.image = captureImage()
         
@@ -195,7 +201,7 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
             addTextVC.isFirstTimeLoading = true
             self.navigationController?.pushViewController(addTextVC, animated: true)
             break
-        }  
+        }
     }
     
     func addBannerViewToView(_ bannerView: GADBannerView) {

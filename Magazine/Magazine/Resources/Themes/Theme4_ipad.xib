@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="BEVAN.TTF">
+            <string>Bevan</string>
+        </array>
         <array key="SCRIPTIN_0.ttf">
             <string>Scriptina</string>
         </array>
@@ -43,8 +46,17 @@
                             <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                             <size key="shadowOffset" width="0.0" height="0.0"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HERNER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hV-Ns-d61" customClass="THLabel">
-                            <rect key="frame" x="22.5" y="203.5" width="131.5" height="40"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAYBOY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oWX-2B-oDP" customClass="THLabel">
+                            <rect key="frame" x="16" y="-26" width="588" height="174.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Bevan" family="Bevan" pointSize="108"/>
+                            <color key="textColor" red="0.70980392160000005" green="0.42745098040000001" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <size key="shadowOffset" width="1" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEFNER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hV-Ns-d61" customClass="THLabel">
+                            <rect key="frame" x="25" y="203.5" width="126.5" height="40"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30.5"/>
                             <nil key="highlightedColor"/>
@@ -110,6 +122,7 @@
                         <constraint firstItem="lDn-zZ-fna" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:3.4" id="BAU-cc-UQZ"/>
                         <constraint firstItem="SxC-lR-uJc" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:1.55" id="BxC-eU-XL0"/>
                         <constraint firstAttribute="trailing" secondItem="1yk-RT-TkP" secondAttribute="trailing" id="Esl-CM-rBA"/>
+                        <constraint firstItem="oWX-2B-oDP" firstAttribute="leading" secondItem="lDn-zZ-fna" secondAttribute="leading" constant="-4" id="SrN-YR-5t1"/>
                         <constraint firstItem="1yk-RT-TkP" firstAttribute="top" secondItem="DF0-ff-7cF" secondAttribute="top" id="TMl-mT-hqF"/>
                         <constraint firstItem="wXm-5J-bcn" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1.02:1" id="Wnn-d2-7p4"/>
                         <constraint firstItem="VdU-fP-AS5" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.2" id="bid-b3-J3F"/>
@@ -123,6 +136,7 @@
                         <constraint firstItem="1yk-RT-TkP" firstAttribute="leading" secondItem="DF0-ff-7cF" secondAttribute="leading" id="o3f-mI-6JA"/>
                         <constraint firstItem="mhV-tE-lVL" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.75" id="pge-OC-HHl"/>
                         <constraint firstItem="5hV-Ns-d61" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.55" id="rDm-0u-iS9"/>
+                        <constraint firstItem="oWX-2B-oDP" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:6.3" id="xrQ-zR-OZK"/>
                         <constraint firstItem="VdU-fP-AS5" firstAttribute="centerY" secondItem="DF0-ff-7cF" secondAttribute="centerY" multiplier="1:1.05" id="zBd-ef-HEQ"/>
                         <constraint firstItem="SxC-lR-uJc" firstAttribute="centerX" secondItem="DF0-ff-7cF" secondAttribute="centerX" multiplier="1:3.8" id="ztE-3A-gwD"/>
                     </constraints>

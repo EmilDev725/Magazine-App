@@ -58,3 +58,6 @@ let Editor_Height_iPhone = Main_Screen_Height - 153
 let Editor_Width_iPad = Main_Screen_Width - 143
 let Editor_Height_iPad = Main_Screen_Height - 255
 
+// Alerts
+let kNoticeUnSavedText = "Are you sure you want to go back? All unsaved progress will be lost"
+

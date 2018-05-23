@@ -3,10 +3,35 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "AddTextVC.viewDidAppear(_:):AddTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentProject">
+            </PersistentString>
+            <PersistentString
+               value = "activatedText">
+            </PersistentString>
+            <PersistentString
+               value = "appDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "SelectTemplateVC.addBannerViewToView(_:):SelectTemplateVC.swift">
          <PersistentStrings>
             <PersistentString
                value = "bannerView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddTextVC.addImagesInTemplate():AddTextVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "EditTextVC.btnTextEffect_Clicked(_:):EditTextVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "activatedText">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
