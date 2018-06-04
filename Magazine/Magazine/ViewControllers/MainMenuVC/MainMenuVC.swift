@@ -30,6 +30,7 @@ class MainMenuVC: UIViewController, MFMailComposeViewControllerDelegate, SKProdu
         productsRequest.start()
     }
 
+    // MARK: - SKProductsRequestDelegate
     func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
         for transaction:AnyObject in transactions {
             if let trans = transaction as? SKPaymentTransaction {

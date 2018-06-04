@@ -34,29 +34,30 @@ class SaveOptionsVC: UIViewController, GADBannerViewDelegate{
         let dImg = glRenderer.render(withBackground: UIImage(named:imgName))
         btn_dstyleImg.setBackgroundImage(dImg, for: .normal)
         
-        // Admob Banner
-        switch UIDevice.current.userInterfaceIdiom {
-        case .pad:
-            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
-            bannerView = GADBannerView(frame: bannerFrame)
-            break
-        default:
-            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
-            bannerView = GADBannerView(frame: bannerFrame)
-            break
+        if !userdefaults.bool(forKey: KEY_FULLVERSION){
+            // Admob Banner
+            switch UIDevice.current.userInterfaceIdiom {
+            case .pad:
+                let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
+                bannerView = GADBannerView(frame: bannerFrame)
+                break
+            default:
+                let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
+                bannerView = GADBannerView(frame: bannerFrame)
+                break
+            }
+            
+            addBannerViewToView(bannerView)
+            bannerView.adUnitID = GAD_BANNER_ID
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+            bannerView.delegate = self
+            
+            // Admob Interstitial
+            interstitial = GADInterstitial(adUnitID: GAD_INTERSTITIAL_ID)
+            let request = GADRequest()
+            interstitial.load(request)
         }
-        
-        addBannerViewToView(bannerView)
-        bannerView.adUnitID = GAD_BANNER_ID
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
-        bannerView.delegate = self
-        
-        // Admob Interstitial
-        interstitial = GADInterstitial(adUnitID: GAD_INTERSTITIAL_ID)
-        let request = GADRequest()
-        interstitial.load(request)
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {

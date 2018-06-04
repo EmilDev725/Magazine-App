@@ -33,25 +33,27 @@ class SelectTemplateVC: UIViewController, GADBannerViewDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // Admob Banner
-        switch UIDevice.current.userInterfaceIdiom {
-        case .pad:
-            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
-            bannerView = GADBannerView(frame: bannerFrame)
-            bannerHeightConstraint.constant = 90
-            break
-        default:
-            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
-            bannerView = GADBannerView(frame: bannerFrame)
-            bannerHeightConstraint.constant = 50
-            break
+        if !userdefaults.bool(forKey: KEY_FULLVERSION){
+            // Admob Banner
+            switch UIDevice.current.userInterfaceIdiom {
+            case .pad:
+                let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
+                bannerView = GADBannerView(frame: bannerFrame)
+                bannerHeightConstraint.constant = 90
+                break
+            default:
+                let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
+                bannerView = GADBannerView(frame: bannerFrame)
+                bannerHeightConstraint.constant = 50
+                break
+            }
+            
+            addBannerViewToView(bannerView)
+            bannerView.adUnitID = GAD_BANNER_ID
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+            bannerView.delegate = self
         }
-        
-        addBannerViewToView(bannerView)
-        bannerView.adUnitID = GAD_BANNER_ID
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
-        bannerView.delegate = self
     }
 
     // MARK: - Button Actions

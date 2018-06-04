@@ -58,23 +58,25 @@ class AddPhotoVC: UIViewController, GADBannerViewDelegate {
         
         rect_Container = view_container.frame
         
-        // Admob Banner
-        switch UIDevice.current.userInterfaceIdiom {
-        case .pad:
-            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
-            bannerView = GADBannerView(frame: bannerFrame)
-            break
-        default:
-            let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
-            bannerView = GADBannerView(frame: bannerFrame)
-            break
+        if !userdefaults.bool(forKey: KEY_FULLVERSION){
+            // Admob Banner
+            switch UIDevice.current.userInterfaceIdiom {
+            case .pad:
+                let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 90)
+                bannerView = GADBannerView(frame: bannerFrame)
+                break
+            default:
+                let bannerFrame = CGRect(x: 0, y: 0, width: Main_Screen_Width, height: 50)
+                bannerView = GADBannerView(frame: bannerFrame)
+                break
+            }
+            
+            addBannerViewToView(bannerView)
+            bannerView.adUnitID = GAD_BANNER_ID
+            bannerView.rootViewController = self
+            bannerView.load(GADRequest())
+            bannerView.delegate = self
         }
-        
-        addBannerViewToView(bannerView)
-        bannerView.adUnitID = GAD_BANNER_ID
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
-        bannerView.delegate = self
     }
     
     override func viewWillAppear(_ animated: Bool) {

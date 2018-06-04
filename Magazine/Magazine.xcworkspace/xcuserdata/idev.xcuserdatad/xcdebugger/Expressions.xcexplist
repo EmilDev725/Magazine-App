@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "MainMenuVC.productsRequest(_:didReceive:):MainMenuVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.products.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "AddTextVC.viewDidAppear(_:):AddTextVC.swift">
          <PersistentStrings>
             <PersistentString
