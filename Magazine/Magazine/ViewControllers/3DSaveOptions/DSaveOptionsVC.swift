@@ -30,9 +30,11 @@ class DSaveOptionsVC: UIViewController, SKProductsRequestDelegate, SKPaymentTran
 //        let img = glRenderer.render(withBackgroundColor: UIColor.clear)
 //        UIImageWriteToSavedPhotosAlbum(img!, self, nil, nil)
         
-        interstitial = GADInterstitial(adUnitID: GAD_INTERSTITIAL_ID)
-        let request = GADRequest()
-        interstitial.load(request)
+        if !userdefaults.bool(forKey: KEY_FULLVERSION){
+            interstitial = GADInterstitial(adUnitID: GAD_INTERSTITIAL_ID)
+            let request = GADRequest()
+            interstitial.load(request)
+        }
     }
     
     func fetchAvailableProducts()  {
@@ -137,9 +139,6 @@ class DSaveOptionsVC: UIViewController, SKProductsRequestDelegate, SKPaymentTran
     @IBAction func btnFinish_Clicked(_ sender: Any) {
         
         if userdefaults.bool(forKey: KEY_FULLVERSION){
-            if interstitial.isReady {
-                interstitial.present(fromRootViewController: self)
-            }
             let img = glRenderer.render(withBackground: UIImage(named:imgName))
             UIImageWriteToSavedPhotosAlbum(img!, self, nil, nil)
             
@@ -148,6 +147,10 @@ class DSaveOptionsVC: UIViewController, SKProductsRequestDelegate, SKPaymentTran
             self.navigationController?.pushViewController(dSaved, animated: true)
         }
         else{
+            if interstitial.isReady {
+                interstitial.present(fromRootViewController: self)
+            }
+            
             let alert = UIAlertController(title: "Upgrade to Full Version", message: "Enable 3D style saving", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { action in
                 

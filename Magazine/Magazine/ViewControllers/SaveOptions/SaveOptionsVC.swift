@@ -90,9 +90,13 @@ class SaveOptionsVC: UIViewController, GADBannerViewDelegate{
     @IBAction func btnRegular_Clicked(_ sender: Any) {
         
         UIImageWriteToSavedPhotosAlbum((currentProject?.screenshot)!, self, nil, nil)
-        if interstitial.isReady {
-            interstitial.present(fromRootViewController: self)
+        
+        if !userdefaults.bool(forKey: KEY_FULLVERSION){
+            if interstitial.isReady {
+                interstitial.present(fromRootViewController: self)
+            }
         }
+        
         switch UIDevice.current.userInterfaceIdiom {
         case .pad:
             let regularSaveVC = RegularSaveVC(nibName: "RegularSaveVC_ipad", bundle: nil)
